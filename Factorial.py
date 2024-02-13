@@ -10,11 +10,8 @@ def main():
     numero = int(input("Ingrese un número para calcular su factorial: "))
     
     factorial_math = math.factorial(numero)
-    print("Usando math.factorial(): El factorial de", numero, "es", factorial_math)
+    print("El factorial de", numero, "es", factorial_math)
     
-    factorial_propio = factorial(numero)
-    print("Usando la función propia: El factorial de", numero, "es", factorial_propio)
-
 if __name__ == "__main__":
     main()
 
