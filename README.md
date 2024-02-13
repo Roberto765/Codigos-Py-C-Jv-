@@ -8,7 +8,7 @@ La disciplina que utiliza este lenguaje (Python) es de __Tipado dinámico__ ya q
 Tambien es conocido por ser un lenguaje __Fuertemente tipado__ ya que no permite hacer operaciones en tipos de datos incompatibles sin una conversion explicita.Estas caracteristicas lo hacen flexible y seguro, al tiempo que permite un desarrollo rapido y facil ya que no es necesario procuparse por la declaracion y conversion de tipos.
 
 # El paradigma del lenguaje utilizado:
-El paradigma que predomina este lenguaje es la _-Programacion orientada a objetos__ ya que soporta la definicion de clases y objetos, ademas de conceptos como la herencia el polimorfismo y encapsulamiento.
+El paradigma que predomina este lenguaje es la __Programacion orientada a objetos__ ya que soporta la definicion de clases y objetos, ademas de conceptos como la herencia el polimorfismo y encapsulamiento.
 
 # La estructura que lleva las funciones o metodos:
 Las funciones que tiene este lenguaje (Python) son las siguientes:
