@@ -1,6 +1,5 @@
 # Codigos-Py-C-Jv-
 ## Tipo de dato que maneja el lenguaje:
-(PRUEBA USANDO MARKDOWN)
 
 Este lenguaje (Python) maneja varios tipos de datos, principalmente enteros(int), flotantes(float), cadenas de caracteres(srt) y excepciones(ValueError) para el manejo de errores, los cuales se utilizan para interactuar con el usuario, realizar calculos y posibles errores que se den durante su ejecución.
 
