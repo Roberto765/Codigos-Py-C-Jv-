@@ -12,7 +12,7 @@ El paradigma que predomina este lenguaje es la __Programacion orientada a objeto
 
 # La estructura que lleva las funciones o metodos:
 Las funciones que tiene este lenguaje (Python) son las siguientes:
--1.-__def__ Es una palabra utilizada para definir una funcion.
--2.-__factorial__ Es el nombre de la funcion
--3.-__(n)__ Lista de parametros que recibe la funcion 
--4.-__return__ Una palabra clave utilizada para devolver un valor desde la funcion
+* 1.-__def__ Es una palabra utilizada para definir una funcion.
+* 2.-__factorial__ Es el nombre de la funcion
+* 3.-__(n)__ Lista de parametros que recibe la funcion 
+* 4.-__return__ Una palabra clave utilizada para devolver un valor desde la funcion
