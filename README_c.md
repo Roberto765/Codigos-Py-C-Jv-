@@ -23,9 +23,9 @@ de funciones para modularizar el código.
 ## La estructura que llevan las funciones o métodos: 
 En C, las funciones tienen una estructura similar a la siguiente:
 
-- 1.- En C todas las funciones son públicas por defecto.
-Tipo de función: Se define el tipo de la función, como int, void, etc., que indica el tipo de valor que devuelve la función.
-Nombre de la función: Es el nombre asignado a la función.
-Parámetros: Los parámetros que toma la función, si los hay, se enumeran dentro de los paréntesis.
-Cuerpo de la función: El código que se ejecuta cuando la función es llamada.
-Instrucción de retorno: Se utiliza para devolver un valor al lugar donde se invoca la función.
+- 1.- __public__ En C todas las funciones son públicas por defecto.
+- 2.- __int, void, etc.__ , que indica el tipo de valor que devuelve la función.
+- 3.- __Nombre de la función:__ Es el nombre asignado a la función.
+- 4.- __Parámetros:__ Los parámetros que toma la función, si los hay, se enumeran dentro de los paréntesis.
+- 5.- __Cuerpo de la función:__ El código que se ejecuta cuando la función es llamada.
+- 6.- __Instrucción de retorno:__ Se utiliza para devolver un valor al lugar donde se invoca la función.
