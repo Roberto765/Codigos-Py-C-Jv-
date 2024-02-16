@@ -33,3 +33,5 @@ manera modular y reutilizable.
 ## La estructura que lleva las funciones o métodos:
 
 En Perl, las funciones o métodos tienen una estructura similar a la siguiente:
+- 1.- __sub__ Es una palabra clave que define una subrutina (funcion) en perl.
+- 2.- __nombre__ El nombre que usa la funcion
