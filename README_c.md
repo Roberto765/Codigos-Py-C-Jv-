@@ -1,0 +1,31 @@
+## Tipo de dato que maneja el lenguaje: 
+
+En C, los datos se utilizan para definir el tipo 
+de valor que puede ser almacenado en una variable. 
+Además de los tipos de datos predefinidos, C 
+permite la creación de tipos personalizados 
+mediante estructuras.
+
+## La disciplina de tipos: 
+
+C utiliza una disciplina de tipos estática, 
+donde el tipo de cada variable se conoce en
+tiempo de compilación y se verifica su 
+compatibilidad durante la compilación.
+
+## El paradigma del lenguaje utilizado: 
+
+C es un lenguaje multiparadigma, pero su paradigma 
+principal es el imperativo/procedural. Se enfoca en 
+la ejecución secuencial de instrucciones y el uso 
+de funciones para modularizar el código.
+
+## La estructura que llevan las funciones o métodos: 
+En C, las funciones tienen una estructura similar a la siguiente:
+
+- 1.- En C todas las funciones son públicas por defecto.
+Tipo de función: Se define el tipo de la función, como int, void, etc., que indica el tipo de valor que devuelve la función.
+Nombre de la función: Es el nombre asignado a la función.
+Parámetros: Los parámetros que toma la función, si los hay, se enumeran dentro de los paréntesis.
+Cuerpo de la función: El código que se ejecuta cuando la función es llamada.
+Instrucción de retorno: Se utiliza para devolver un valor al lugar donde se invoca la función.
