@@ -15,8 +15,8 @@ El paradigma que predomina este lenguaje es el paradigma imperativo, haciendo en
 
 Las funciones que tiene este lenguaje (Python) son las siguientes:
 
-1.- __Definicion (def):__ Es una palabra utilizada para definir una funcion.
-2.- __Nombre:__  Es el nombre descriptivo para la funcion.
-3.- __Argumentos:__ Son los argumentos que lleva la funcion, puede ser opcional o requerido.
-4.- __Cuerpo:__ Una palabra clave utilizada para devolver un valor desde la funcion
-5.- __Retorno__ Utilizado para devolver un valor desde la funcion o metodo.
+- 1.- __Definicion (def):__ Es una palabra utilizada para definir una funcion.
+- 2.- __Nombre:__  Es el nombre descriptivo para la funcion.
+- 3.- __Argumentos:__ Son los argumentos que lleva la funcion, puede ser opcional o requerido.
+- 4.- __Cuerpo:__ Una palabra clave utilizada para devolver un valor desde la funcion
+- 5.- __Retorno__ Utilizado para devolver un valor desde la funcion o metodo.
