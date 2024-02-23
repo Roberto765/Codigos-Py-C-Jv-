@@ -35,3 +35,74 @@ manera modular y reutilizable.
 En Perl, las funciones o métodos tienen una estructura similar a la siguiente:
 - 1.- __sub__ Es una palabra clave que define una subrutina (funcion) en perl.
 - 2.- __nombre__ El nombre que usa la funcion
+
+
+## FACTORIAL
+
+use strict;
+use warnings;
+
+sub factorial {
+    my $n = shift;
+    if ($n == 0) {
+        return 1;
+    } else {
+        return $n * factorial($n - 1);
+    }
+}
+
+sub main {
+    print "Ingrese un número para calcular su factorial: ";
+    my $numero = <STDIN>;
+    chomp($numero);
+
+    my $factorial_perl = factorial($numero);
+    print "El factorial de $numero es $factorial_perl\n";
+}
+
+main();
+
+## FIBONACCI
+
+use strict;
+use warnings;
+
+sub fibonacci {
+    my $n = shift;
+    if ($n <= 1) {
+        return $n;
+    } else {
+        return fibonacci($n - 1) + fibonacci($n - 2);
+    }
+}
+
+print "Ingrese el número Fibonacci a generar: ";
+my $num_terminos = <STDIN>;
+chomp($num_terminos);
+
+print "Secuencia de Fibonacci:\n";
+for my $i (0..$num_terminos-1) {
+    print fibonacci($i), " ";
+}
+
+## PALINDROMO
+
+use strict;
+use warnings;
+
+sub es_palindromo {
+    my $palabra = shift;
+    $palabra =~ s/\s+//g; 
+    $palabra = lc($palabra); 
+    return $palabra eq reverse($palabra);
+}
+
+print "Ingrese una palabra para verificar si es un palíndromo: ";
+my $palabra = <STDIN>;
+chomp($palabra);
+
+if (es_palindromo($palabra)) {
+    print "'$palabra' es un palíndromo.\n";
+} else {
+    print "'$palabra' no es un palíndromo.\n";
+}
