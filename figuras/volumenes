@@ -1,0 +1,107 @@
+## VOLUMEN CUBO
+
+(defun volumen-cubo (lado)
+  (expt lado 3))
+
+(format t "Ingrese la longitud de un lado del cubo: ")
+(setq lado (read))
+(format t "El volumen del cubo es: ~a~%" (volumen-cubo lado))
+
+## VOLUMEN PRISMA RECTANGULAR
+
+(defun volumen-prisma-rectangular (base altura profundidad)
+  (* base altura profundidad))
+
+(format t "Ingrese la longitud de la base del prisma rectangular: ")
+(setq base (read))
+(format t "Ingrese la altura del prisma rectangular: ")
+(setq altura (read))
+(format t "Ingrese la profundidad del prisma rectangular: ")
+(setq profundidad (read))
+(format t "El volumen del prisma rectangular es: ~a~%" (volumen-prisma-rectangular base altura profundidad))
+
+## VOLUMEN CILINDRO
+
+(defun volumen-cilindro (radio altura)
+  (* pi (expt radio 2) altura))
+
+(format t "Ingrese el radio del cilindro: ")
+(setq radio (read))
+(format t "Ingrese la altura del cilindro: ")
+(setq altura (read))
+(format t "El volumen del cilindro es: ~a~%" (volumen-cilindro radio altura))
+
+## VOLUMEN DE CONO
+
+(defun volumen-cono (radio altura)
+  (* (/ 1 3) pi (expt radio 2) altura))
+
+(format t "Ingrese el radio de la base del cono: ")
+(setq radio (read))
+(format t "Ingrese la altura del cono: ")
+(setq altura (read))
+(format t "El volumen del cono es: ~a~%" (volumen-cono radio altura))
+
+## VOLUMEN ESFERA
+
+(defun volumen-esfera (radio)
+  (* (/ 4 3) pi (expt radio 3)))
+
+(format t "Ingrese el radio de la esfera: ")
+(setq radio (read))
+(format t "El volumen de la esfera es: ~a~%" (volumen-esfera radio))
+
+## VOLUMEN PIRAMIDE 
+
+(defun volumen-piramide-cuadrangular (base altura)
+  (* (/ 1 3) base altura))
+
+(format t "Ingrese el área de la base de la pirámide cuadrangular: ")
+(setq base (read))
+(format t "Ingrese la altura de la pirámide cuadrangular: ")
+(setq altura (read))
+(format t "El volumen de la pirámide cuadrangular es: ~a~%" (volumen-piramide-cuadrangular base altura))
+
+## VOLUMEN TETRAEDRO
+
+(defun volumen-tetraedro (lado)
+  (/ (expt lado 3) (* 6 (sqrt 2))))
+
+(format t "Ingrese la longitud de un lado del tetraedro: ")
+(setq lado (read))
+(format t "El volumen del tetraedro es: ~a~%" (volumen-tetraedro lado))
+
+## VOLUMEN CILINDRO
+
+(defun volumen-cilindro-hueco (radio_externo radio_interno altura)
+  (* pi altura (- (expt radio_externo 2) (expt radio_interno 2))))
+
+(format t "Ingrese el radio externo del cilindro hueco: ")
+(setq radio_externo (read))
+(format t "Ingrese el radio interno del cilindro hueco: ")
+(setq radio_interno (read))
+(format t "Ingrese la altura del cilindro hueco: ")
+(setq altura (read))
+(format t "El volumen del cilindro hueco es: ~a~%" (volumen-cilindro-hueco radio_externo radio_interno altura))
+
+## VOLUMEN CONO 
+
+(defun volumen-cono-truncado (radio_mayor radio_menor altura)
+  (* (/ 1 3) pi altura (+ (expt radio_mayor 2) (* radio_mayor radio_menor) (expt radio_menor 2))))
+
+(format t "Ingrese el radio mayor del cono truncado: ")
+(setq radio_mayor (read))
+(format t "Ingrese el radio menor del cono truncado: ")
+(setq radio_menor (read))
+(format t "Ingrese la altura del cono truncado: ")
+(setq altura (read))
+(format t "El volumen del cono truncado es: ~a~%" (volumen-cono-truncado radio_mayor radio_menor altura))
+
+## VOLUMEN OCTAEDRO
+
+(defun volumen-octaedro (lado)
+  (* (/ 1 3) (sqrt 2) (expt lado 3)))
+
+(format t "Ingrese la longitud de un lado del octaedro: ")
+(setq lado (read))
+(format t "El volumen del octaedro es: ~a~%" (volumen-octaedro lado))
