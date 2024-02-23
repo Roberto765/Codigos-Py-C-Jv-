@@ -1,1 +1,104 @@
+## AREA CUADRADO
+
+(defun area-cuadrado (lado)
+  (* lado lado))
+
+(format t "Ingrese la longitud del lado del cuadrado: ")
+(setq lado (read))
+(format t "El área del cuadrado es: ~a~%" (area-cuadrado lado))
+
+## AREA TRIANGULO
+
+(defun area-triangulo (base altura)
+  (/ (* base altura) 2))
+
+(format t "Ingrese la longitud de la base del triángulo: ")
+(setq base (read))
+(format t "Ingrese la altura del triángulo: ")
+(setq altura (read))
+(format t "El área del triángulo es: ~a~%" (area-triangulo base altura))
+
+## AREA CIRCULO
+
+(defun area-circulo (radio)
+  (* pi (* radio radio)))
+
+(format t "Ingrese el radio del círculo: ")
+(setq radio (read))
+(format t "El área del círculo es: ~a~%" (area-circulo radio))
+
+## AREA RECTANGULO
+
+(defun area-rectangulo (base altura)
+  (* base altura))
+
+(format t "Ingrese la longitud de la base del rectángulo: ")
+(setq base (read))
+(format t "Ingrese la altura del rectángulo: ")
+(setq altura (read))
+(format t "El área del rectángulo es: ~a~%" (area-rectangulo base altura))
+
+## AREA PENTAGONO
+
+(defun area-pentagono (lado apotema)
+  (* (/ (* 5 lado) 2) apotema))
+
+(format t "Ingrese la longitud del lado del pentágono: ")
+(setq lado (read))
+(format t "Ingrese la longitud de la apotema del pentágono: ")
+(setq apotema (read))
+(format t "El área del pentágono es: ~a~%" (area-pentagono lado apotema))
+
+## AREA HEXAGONO
+
+(defun area-hexagono (lado)
+  (* 3 (* 1/2 (sqrt 3) (expt lado 2))))
+
+(format t "Ingrese la longitud del lado del hexágono: ")
+(setq lado (read))
+(format t "El área del hexágono es: ~a~%" (area-hexagono lado))
+
+## AREA OCTAGONO
+
+(defun area-octagono (lado)
+  (* 2 (expt lado 2) (sqrt 2)))
+
+(format t "Ingrese la longitud del lado del octágono: ")
+(setq lado (read))
+(format t "El área del octágono es: ~a~%" (area-octagono lado))
+
+## AREA TRAPECIO
+
+(defun area-trapecio (base1 base2 altura)
+  (/ (* (+ base1 base2) altura) 2))
+
+(format t "Ingrese la longitud de la base menor del trapecio: ")
+(setq base1 (read))
+(format t "Ingrese la longitud de la base mayor del trapecio: ")
+(setq base2 (read))
+(format t "Ingrese la altura del trapecio: ")
+(setq altura (read))
+(format t "El área del trapecio es: ~a~%" (area-trapecio base1 base2 altura))
+
+## AREA PARALELOGRAMO
+
+(defun area-paralelogramo (base altura)
+  (* base altura))
+
+(format t "Ingrese la longitud de la base del paralelogramo: ")
+(setq base (read))
+(format t "Ingrese la altura del paralelogramo: ")
+(setq altura (read))
+(format t "El área del paralelogramo es: ~a~%" (area-paralelogramo base altura))
+
+## AREA ROMBO
+
+(defun area-rombo (diagonal1 diagonal2)
+  (/ (* diagonal1 diagonal2) 2))
+
+(format t "Ingrese la longitud de la diagonal mayor del rombo: ")
+(setq diagonal1 (read))
+(format t "Ingrese la longitud de la diagonal menor del rombo: ")
+(setq diagonal2 (read))
+(format t "El área del rombo es: ~a~%" (area-rombo diagonal1 diagonal2))
 
