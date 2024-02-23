@@ -1,1 +1,61 @@
+def resolver_laberinto(laberinto):
+    filas = len(laberinto)
+    columnas = len(laberinto[0])
+    nueva_matriz = [[0] * columnas for _ in range(filas)]
+
+    for i in range(filas):
+        for j in range(columnas):
+            nueva_matriz[i][j] = laberinto[i][j]
+
+    buscar_camino(laberinto, nueva_matriz, 0, 0)
+    return nueva_matriz
+
+def buscar_camino(laberinto, nueva_matriz, fila, columna):
+    if (fila < 0 or fila >= len(laberinto) or
+        columna < 0 or columna >= len(laberinto[0]) or
+        laberinto[fila][columna] == 1 or nueva_matriz[fila][columna] == 2):
+        return False
+
+    nueva_matriz[fila][columna] = 2  # Marcar como camino recorrido
+
+    if laberinto[fila][columna] == 3:
+        return True  # Llegamos al final del laberinto
+
+    # Buscar en las cuatro direcciones posibles
+    if (buscar_camino(laberinto, nueva_matriz, fila + 1, columna) or
+        buscar_camino(laberinto, nueva_matriz, fila - 1, columna) or
+        buscar_camino(laberinto, nueva_matriz, fila, columna + 1) or
+        buscar_camino(laberinto, nueva_matriz, fila, columna - 1)):
+        return True
+
+    nueva_matriz[fila][columna] = 0  # Desmarcar si no encontramos solución desde esta posición
+    return False
+
+def imprimir_matriz(matriz):
+    for fila in matriz:
+        for elemento in fila:
+            print(elemento, end=" ")
+        print()
+
+laberinto = [
+    [0, 1, 0, 0, 0, 1],
+    [0, 1, 1, 0, 1, 0],
+    [0, 0, 0, 0, 0, 1],
+    [1, 0, 1, 1, 0, 0],
+    [0, 0, 1, 0, 1, 0],
+    [1, 1, 1, 0, 1, 3]
+]
+
+print("Laberinto principal")
+print("-------------------")
+for fila in laberinto:
+    for elemento in fila:
+        print(elemento, end=" ")
+    print()
+
+print("-------------------")
+print("Laberinto resuelto")
+print("___________________")
+nueva_matriz = resolver_laberinto(laberinto)
+imprimir_matriz(nueva_matriz)
 
