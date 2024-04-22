@@ -1,0 +1,40 @@
+VARIABLES DE INVIDUO:
+
+Si existe X en la feria, tal que dicha X paga, entonces todas las X pagan.
+
+Para todo X, si X es un hombre entonces X mortal
+
+Hay X inteligentes y hay X trabajadores, por tanto hay X inteligentes ytrabajadores
+
+En cierto X oriental se a celebrado la fase final del campeonato mundial de futbol. Cierto X deportivo a publicado las sigueintes estadisticas de tal magno acontecimiento:
+
+A todos los x que no vistieron camiseta negra les marco un gol algun X europeo.
+
+Algun X jugo con botas blancas y solo le marcaron goles X con botas blancas.
+
+Ningun X se marco gol a si mismo
+
+Ningun X con botas blancas vistio camiseta negra.
+
+Por tanto algun X europeo jugo con botas blancas .
+
+X era el maestro de X, X tuvo a lo sumo un X 
+
+X fue X de X cuyo maestro fue X por sonsiguiente X fue el maestro de X
+
+CONSTANTES:
+
+La feria, personas.
+Hombres
+Lugares
+Personas,colores, equipos
+
+RELACIONES:
+Paga, feria
+Hombre, mortal
+Inteligente, trabajador
+Oriental, fase final del campeonato
+Vistio, gol
+Gol
+Vistio, bota
+Jugador, bota, equipacion, europeo
