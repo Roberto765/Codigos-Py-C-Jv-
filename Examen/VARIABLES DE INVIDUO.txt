@@ -38,3 +38,15 @@ Vistio, gol
 Gol
 Vistio, bota
 Jugador, bota, equipacion, europeo
+
+PREDICADOS:
+Todos pagan
+Hombre mortal
+Inteligente trabajador
+Fase final del campeonato oriental
+Deportivo publica estadisticas
+Gol jugador europeo
+Jugador botas blancas
+Ningun jugador gol propio
+Ningun jugador botas blancas camiseta negra
+Jugador europeo, botas blancas
